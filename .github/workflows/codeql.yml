@@ -59,6 +59,8 @@ jobs:
     # If this step fails, then you should remove it and run the build manually (see below)
     - name: Autobuild
       uses: schineaj23/vex-build@v1.0
+      with:
+        path: .
 
 
     # ℹ️ Command-line programs to run using the OS shell.
