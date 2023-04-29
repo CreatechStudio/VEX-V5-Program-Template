@@ -1,0 +1,6 @@
+/bin
+/build
+compile_commands.json
+.history/
+.DS_Store
+.vscode/
