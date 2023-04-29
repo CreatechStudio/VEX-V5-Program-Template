@@ -1,2 +1,14 @@
-- name: VEX Build
-  uses: schineaj23/vex-build@v1.0
+name: "VEX Build"
+
+on:
+  push:
+    branches: [ "master", main ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "master" ]
+  schedule:
+    - cron: '20 1 * * 3'
+
+jobs:
+    - name: Autobuild
+      uses: schineaj23/vex-build@v1.0
