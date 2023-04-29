@@ -1,7 +1,7 @@
 clear;
 
 for i = 3.10: 0.1: 4.4
-location = 'robot-J';
+location = 'robot';
 filename = sprintf('%s/rotate-d-%1.2f-%1.2f.txt', location, 1.00, i);
 % filename = sprintf('%s/rotate-p-%1.2f.txt', location, i);
 % filename = sprintf('%s/forward-p-%1.2f.txt', location, i);
