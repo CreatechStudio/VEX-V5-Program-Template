@@ -1,0 +1,2 @@
+- name: VEX Build
+  uses: schineaj23/vex-build@v1.0
