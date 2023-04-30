@@ -5,7 +5,6 @@
 
 const float MOVEMENT_LOWER_LIMIT = 5;
 const float JOYSTICK_DEADZONE = 5;
-const float SHOOTER_SPEED_ERROR = 50;
 const float ADS = 0.4;
 const float CHASSIS_GEAR_RATIO = 0.75;
 const float WHEEL_DIAMETER = 2.75;

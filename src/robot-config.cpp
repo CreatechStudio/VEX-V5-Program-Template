@@ -17,8 +17,6 @@ controller Controller1 = controller(primary);
   motor Motor_BaseRF = motor(PORT4, ratio6_1, false);
   motor Motor_BaseRM = motor(PORT5, ratio6_1, false);
   motor Motor_BaseRB = motor(PORT6, ratio6_1, false);
-  motor Motor_Intaker = motor(PORT7, ratio6_1, false);
-  motor Motor_Shooter = motor(PORT8,ratio6_1,true);
   inertial IMU = inertial(PORT9);
 #endif
 
